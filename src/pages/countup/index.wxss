@@ -1,0 +1,6 @@
+.num-wrap{
+  padding: 20px;
+  text-align: center;
+  font-size: 60px;
+  color: #4D63BC;
+}

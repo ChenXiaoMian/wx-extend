@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">WxCountUp - 数字滚动</view>
+    <view class="page__desc">该插件是参照 [CountUp.js](https://github.com/inorganik/countUp.js) 封装的，为小程序提供的数字滚动，以更有趣的方式显示数值数据。</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="num-wrap">
+      <view>{{number}}</view>
+    </view>
+    <button class="weui-btn" type="primary" bindtap="start">开始</button>
+    <button class="weui-btn" type="primary" bindtap="pauseResume">暂停/重新开始</button>
+    <button class="weui-btn" type="primary" bindtap="reset">重置</button>
+    <button class="weui-btn" type="primary" bindtap="update">更新</button>
+  </view>
+</view>

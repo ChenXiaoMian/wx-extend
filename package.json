@@ -1,0 +1,20 @@
+{
+  "name": "wx-extend",
+  "version": "1.0.0",
+  "description": "微信小程序 - 扩展插件",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChenXiaoMian/wx-extend.git"
+  },
+  "keywords": ["wx-component", "wxapp"],
+  "author": "chenxiaomian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChenXiaoMian/wx-extend/issues"
+  },
+  "homepage": "https://github.com/ChenXiaoMian/wx-extend#readme"
+}

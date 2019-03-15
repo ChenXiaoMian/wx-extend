@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/countup/index",
+    "pages/about/index"    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "wx-extend",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#0DB608",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/images/iconfont-demo.png",
+        "selectedIconPath": "assets/images/iconfont-demo-active.png",
+        "text": "demo"
+      },
+      {
+        "pagePath": "pages/about/index",
+        "iconPath": "assets/images/iconfont-about.png",
+        "selectedIconPath": "assets/images/iconfont-about-active.png",
+        "text": "about"
+      }
+    ]
+  }
+}

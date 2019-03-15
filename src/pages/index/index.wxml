@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">wx-extend</view>
+    <view class="page__desc">wx-extend 微信小程序-扩展插件</view>
+    <view class="page__desc">视觉标准采用WeUI</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-cells__title">目录</view>
+    <view class="weui-cells weui-cells_after-title">
+      <navigator url="/pages/countup/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">WxCountUp</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">数字滚动</view>
+      </navigator>
+    </view>
+  </view>
+</view>
