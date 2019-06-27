@@ -1,0 +1,94 @@
+/* components/verifycode/index.wxss */
+.verify-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  z-index: 2000;
+}
+.verify-popup .vc-dialog-wrap.vc-dialog-top{
+  top: 30%;
+}
+.verify-popup .vc-dialog-wrap{
+  position: absolute;
+  left: 50%;
+  margin-left: -35%;
+  top: 10%;
+  width: 70%;
+  height: 400rpx;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+  overflow: hidden;
+  background: #fff;
+}
+.vc-header{
+  font-size: 24rpx;
+  height: 65rpx;
+  line-height: 60rpx;
+  position: relative;
+  border-bottom: 1rpx solid #f8f8f8;
+  z-index: 100;
+}
+.vc-header .title{
+  color: #8c8c8c;
+}
+.vc-header .vc-close{
+  position: absolute;
+  top: 5rpx;
+  right: -30rpx;
+  padding: 0 40rpx;
+}
+.vc-title{
+  color: #aaaaaa;
+  font-size: 30rpx;
+  padding: 20rpx;
+  text-align: center;
+}
+.vc-code-wrap{
+  width: 100%;
+  height: 80rpx;
+  border: 1rpx solid #f3f3f3;
+  box-sizing: border-box;
+  display: flex;
+}
+.vc-input-view{
+  width: 16.667%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  box-sizing: border-box;
+  border-right: 1rpx solid #f3f3f3;
+}
+.vc-input-view:last-child{
+  border-right: 0;
+}
+.vc-desc{
+  font-size: 24rpx;
+  color: #7a7a7a;
+  padding: 15rpx;
+  text-align: center;
+}
+.vc-desc text{
+  font-weight: bold;
+}
+.vc-body .btn-primary{
+  background-color: #2e73c6;
+  color: #fff;
+  font-size: 26rpx;
+  border-radius: 10rpx;
+  height: 40px;
+  line-height: 38px;
+}
+.vc-body .btn-primary.van-button--disabled{
+  background-color: #dcdcdc;
+}
+.key-input{
+  position: absolute;
+  top: -50%;
+  left: -100%;
+  opacity: 0;
+  z-index: -1;
+}

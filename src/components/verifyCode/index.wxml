@@ -1,0 +1,39 @@
+<!--components/verifycode/index.wxml-->
+<view class="verify-popup" wx:if="{{isShow}}">
+<view class="vc-dialog-wrap {{isIphone?'vc-dialog-top':''}}">
+  <input
+    class="key-input"
+    value='{{inputValue}}'
+    type='number'
+    adjust-position="true"
+    confirm-type="done"
+    focus="{{isFocus}}"
+    bindinput="listenKeyInput"/>  
+  <view class="vc-header">
+    <text class="title">{{column}}</text>
+    <view class="vc-close" catchtap="closeView">X</view>
+  </view>
+  <view class="vc-body">
+    <view class="vc-title">{{title}}</view>
+    <view class="vc-code-wrap"
+      catchtap='openKeyboard'
+    >
+      <view
+        class="vc-input-view"
+        wx:for="{{codes}}" 
+        wx:for-item="code"
+        wx:key="codeKey"
+      >
+        <text class="vc-input-text">{{code}}</text>
+      </view>
+    </view>
+    <view class="vc-desc">{{content}}<text>{{phone}}</text></view>
+    <button
+      disabled="{{btnDisabled}}"
+      class="btn-primary"
+      bindtap="getVerification"
+    >{{btnText}}
+    </button>
+  </view>
+</view>
+</view>

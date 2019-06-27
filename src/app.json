@@ -1,8 +1,9 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/verifyCode/index",
     "pages/countup/index",
-    "pages/about/index"    
+    "pages/about/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,5 +27,6 @@
         "text": "about"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

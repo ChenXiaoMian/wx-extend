@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "verifyCode": "/components/verifyCode/index"
+  },
+  "navigationBarTitleText": "VerifyCode"
+}

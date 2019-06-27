@@ -1,0 +1,15 @@
+<!--pages/verifyCode/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">VerifyCode - 手机验证码输入框</view>
+    <view class="page__desc">参考了[手把手教你微信小程序组件开发 (验证码输入框)@Monster_鼎辉]，增加了倒计时JS逻辑</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <button class="weui-btn" type="primary" bindtap="start">获取短信验证码</button>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    短信验证码：{{code}}
+  </view>
+  <!-- 验证码组件 -->
+  <verifyCode id='verifycode' column="绑卡并支付" title="请输入短信验证码" content="验证码已发送至您手机" phone="{{mobile}}" />
+</view>
