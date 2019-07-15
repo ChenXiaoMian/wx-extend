@@ -13,7 +13,7 @@ wx-extend 收集我平时开发的小程序插件/组件
 ## 插件/组件及文档
 
 * [WxCountUp - 数字滚动](docs/components/WxCountUp.md)
-- [VerifyCode - 手机验证码输入框](components/VerifyCode.md)
+- [VerifyCode - 手机验证码输入框](docs/components/VerifyCode.md)
 
 ## 贡献
 
