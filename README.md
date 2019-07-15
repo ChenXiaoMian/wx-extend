@@ -2,7 +2,7 @@
 
 ## 概述
 
-wx-extend 收集我平时开发的小程序插件
+wx-extend 收集我平时开发的小程序插件/组件
 
 ## 预览
 
@@ -10,9 +10,10 @@ wx-extend 收集我平时开发的小程序插件
 
 ![WxCountUp](docs/screen/miniprogram.jpg)
 
-## 插件及文档
+## 插件/组件及文档
 
 * [WxCountUp - 数字滚动](docs/components/WxCountUp.md)
+- [VerifyCode - 手机验证码输入框](components/VerifyCode.md)
 
 ## 贡献
 
